@@ -1,0 +1,44 @@
+#postbox-container-2 .postbox .inside{
+  display:flex;
+  flex-flow:row wrap;
+  justifiy-content:space-between;
+  padding-left:0;
+  padding-right:0;
+}
+#postbox-container-2 #richtext_excerpt_editor_metabox .inside{
+  display:block;
+}
+#postexcerpt.postbox .inside,
+#postbox-container-2 .form-field{
+  padding-left:12px;
+  padding-right:12px;
+}
+#postbox-container-2 .jcf_edit_field{
+  width:50%;
+}
+#jcf_fieldset-masse .jcf_edit_field{
+  width:33%;
+}
+.jcf-get-shortcode{
+  margin-right:0;
+}
+#postbox-container-2 .form-field input,
+#postbox-container-2 .form-field textarea{
+  box-model:border-box;
+  width:100%;
+}
+div.jcf_edit_field div.checkboxes-set label{
+  float:none;
+  display:block;
+  width:auto;
+}
+div.jcf_edit_field div.checkboxes-set{
+}
+.jcf_edit_field .wp-editor-tools{
+  width:75%;
+}
+/* To remove any br or p tags that the WordPress editor likes to throw in */
+figure img + br,
+figure a + br,
+figure img + p,
+figure a + p { display: none; }
